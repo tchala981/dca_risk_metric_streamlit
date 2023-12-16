@@ -73,11 +73,13 @@ def main():
         st.write("A: Upon hovering over the chart, on the top left corner you'll see the tool-box for all these controls.")
 
     with st.expander("Q: How do I zoom in/out over only one axis easily?"):
-        st.write("A: After selecting the zoom tool from the toolbox, instead of dragging a box somewhere in the middle of the chart, go to the edges, near the x or y-axis and try to drag a box; with a bit of moving around the selection will snap into horizontal/vertical mode.")
+        st.write("""A: - After selecting the zoom tool from the toolbox, drag vertically or horizontally from the point you clicked initially. This will enable zooming across one axis.  
+        - If you're not dragging exactly vertically or horizontally, a box will open up zooming across both axes.  
+        - After zooming to the required level, select the 'Pan' tool from the toolbox to move the chart around to your desired spot.""")
 
     with st.expander("Q: Why are the initial few datapoints in the charts gray/de-coloured?"):
-        st.write("""A: To calculate the moving Harmonic Average, you need atleast enough points equal to the Window length (chosen by the User). So you can't have a classification for those initial points.   
-        - Also, since the calculation of the risk metric involves taking rolling percentiles (multiple times), even the earliest 100 or so Coloured data-points shouldn't be taken seriously. Which shouldn't be a problem, as the User is usually only concerned with the latest status.    
+        st.markdown("""A: - To calculate the moving Harmonic Average, you need atleast enough points equal to the Window length (chosen by the User). So you can't have a classification for those initial points.   
+        - Also, since the calculation of the risk metric involves taking rolling percentiles (multiple times), even the earliest 100 or so Coloured data-points shouldn't be taken seriously. Which shouldn't be a problem, as the User is usually only concerned with the latest status.   
         - Another point is that the User should use their judgement in making sure the Window length should be much smaller than the number of datapoints available.""")
 
     with st.expander("Q: Can I download the data used in this app?"):
