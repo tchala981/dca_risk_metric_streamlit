@@ -74,4 +74,4 @@ A: Yes. Intended for research and educational purposes, for personal use only. A
 A: The source of the data is Yahoo Finance. You can expect daily updates. More information can be found here: [Yahoo Finance API](https://github.com/ranaroussi/yfinance)
 
 ## Contact Information
-For further queries or feedback: [Email: Atanu Gayen](jothe3inv@gmail.com) | [github](https://github.com/tchala981/dca_risk_metric_streamlit).
+For further queries or feedback: <a href="mailto:jothe3inv@gmail.com">Email (Atanu Gayen): jothe3inv@gmail.com</a> | [github](https://github.com/tchala981/dca_risk_metric_streamlit).
