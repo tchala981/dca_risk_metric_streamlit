@@ -92,7 +92,7 @@ def main():
 
     # Contact Information
     st.markdown("### Contact Information")
-    st.markdown("For further queries or feedback: [Email](jothe3inv@gmail.com)")
+    st.markdown("For further queries or feedback: [Email: Atanu Gayen](jothe3inv@gmail.com)")
 
 if __name__ == "__main__":
     main()
