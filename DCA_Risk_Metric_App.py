@@ -189,7 +189,7 @@ def main():
         
 
         # Download as CSV
-        csv = btc_data.to_csv(index=False)
+        csv = btc_data.to_csv(index=True)
         b = io.BytesIO(csv.encode())
         st.download_button("Download data as CSV", b, "btc_data.csv", "text/csv")
 
